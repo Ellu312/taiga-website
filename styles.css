@@ -706,9 +706,8 @@ color: #fff;
     .main__content{
         color: #fff;
         width: 100%;}
-
     .main__img--card{
-        width: 250px;
+        width: 260px;
         height: 400px;
         margin-right: auto;
         margin-left: auto;
@@ -737,7 +736,7 @@ color: #fff;
     }
 
     .main__img--card2{
-        width: 250px;
+        width: 260px;
         height: 400px;
         display: block;
         margin-left: auto;
@@ -868,7 +867,7 @@ color: #fff;
         margin-bottom: 50px;
     }
 
-    .main__contact--form h1{
+        .main__contact--form h1{
         font-size: 1.5rem;
         margin-top: 30px;
         justify-content: center;
@@ -913,9 +912,9 @@ color: #fff;
         justify-content: center;
         align-items: center;
         height: 600px;
-        width: 250px;
+        max-width: 260px;
+        margin: 0;
     }
-
 }
 
 
