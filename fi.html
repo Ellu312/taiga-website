@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taiga</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo"><img src="Taiga.png" height="50" width="180">
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <spam class="bar"></spam>
+                <spam class="bar"></spam>
+                <spam class="bar"></spam>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Koti</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">Meistä</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#services" class="navbar__links" id="services-page">Palvelut</a>
+                </li>
+                <li class="navbar__btn-lan">
+                    <a href="index.html" class="lan" id="contact">EN</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="#contact-us" class="button" id="contact">Ota yhteyttä</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <!--Hero Section-->
+    <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading"><span>Sosiaalisen Median</span></h1>
+            <h1 class="hero__heading2" >Markkinointitoimisto</h1>
+            <p class="hero__description">Löydä digitaalinen symphoniasi</p>
+            <button class="main__btn"><a href="#services">Tutustu</a></button>
+        </div>
+    </div>
+
+    <!--About sections-->
+    <div class="main" id="about">
+        <div class="main__container">
+            <div class="main__img--container">
+                <div class="main__img--card"><img id="IG" src="ig.jpg" class="center" height="600" width="400">
+                </div>
+            </div>
+            <div class="main__content">
+                <h1>Mitä me teemme?</h1>
+                <h2>Autamme yrityksiä löytämään oikean strategian sosiaalisen median markkinoinnissa</h2>
+                <p>Haluatko kuulla lisää? Ota yhteyttä</p>
+                <button class="main__btn"><a href="#contact-us">Ota yhteyttä</a></button>
+
+            </div>
+           
+
+            <div class="main__content">
+                <p></p>
+                <p></p>
+
+                <h1>Miten teemme sen?</h1>
+                <h2>Kohdistamme tavoitteesi oikeaan strategiaan</h2>
+                <p> Työskentelemme vain yritysten ja ihmisten kanssa, joihin uskomme, joten voimme taata loistotuloksia
+                </p>
+
+            </div>
+                       
+            <div class="main__img--container">
+                <div class="main__img--card2"><img id="IG" src="igs.jpg" height="600" width="400">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="services" id="services">
+        <h1>Palvelumme</h1>
+        <div class="services__wrapped">
+            <div class="services__card">
+                <h2>Konsultaatio</h2>
+                <p>Anna meidän auttaa selvittämään, mikä toimii ja mikä ei</p>
+                <p>Tarjoamme asiantuntijaneuvojamme vahvistaaksemme näkyvyyttäsi sosiaalisessa mediassa</p>
+                <p></p>
+
+
+                <div class="services__btn"><button><a href="#contact-us">Aloita</a></button></div>
+            </div>
+            <div class="services__card">
+                <h2>Sisältösuunnitelma</h2>
+                <p>Strategia sinun sisällöntuotolle</p>
+                <p>Sisältää sisältökalenterin, malliesimerkkejä, kuvatekstejä, ja paljon muuta</p>
+                <p>Sisällöntuotanto ei sisälly pakettiin</p>
+                <p></p>
+
+
+
+                <div class="services__btn"><button><a href="#contact-us">Aloita</a></button></div>
+            </div>
+            <div class="services__card">
+
+                <h2>Sisällöntuotanto</h2>
+                <p>Strategia sinun sisällöntuotolle</p>
+                <p>Videot, kuvat, kuvatekstit</p>
+                <p>Kerro mitä etsit ja me luomme sen</p>
+                <p></p>
+                <p></p>
+                <p></p>
+
+
+                <div class="services__btn"><button><a href="#contact-us">Aloita</a></button></div>
+            </div>
+
+        </div>
+    </div>
+    <div class="main" id="contact-us" >
+        <div class="main__container">
+            <div class="main__contact">
+                <h1>Ota yhteyttä</h1>
+                <h2>Valmistaudu parantamaan liiketoimintaasi</h2>
+                <p>Anna meidän auttaa sinua löytämään digitaalisen symphoniasi</p>
+            </div>
+            <div class="main__img--container">
+                <div class="main__img--card--contact">
+                    <div class="main__contact--form">
+                        <form action="https://formspree.io/f/xeqyowkd" method="POST">
+                            <h1>Yhteydenotto</h1>
+                            <input type="text" name="first" placeholder="Etunimi" autocomplete="off" required>
+                            <input type="text" name="last" placeholder="Sukunimi" autocomplete="off" required>
+                            <input type="email" name="email" placeholder="Sähköposti" autocomplete="off" required>
+                            <textarea name="message" cols="60" rows="5" placeholder="Teksti..." autocomplete="off" required></textarea>
+                            <button class="Submit__btn" type="submit">Lähetä viesti</button>
+                        </form> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Taiga Studiosta</h2>
+                    <a href="">Miten se toimii</a>
+                    <a href="">Tapaa meidän tiimi</a>
+                    <a href="">Meidän missio</a>
+                    <a href="">Tietosuojakäytäntö</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Sosiaalinen media</h2>
+                    <a href="">Instagram</a>
+                    <a href="">Facebook</a>
+                    <a href="">TikTok</a>
+                    <a href="">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <section class="social__media">
+            <div class="social__media--wrap">
+                <p class="website__rights">© Taiga Studio 2024. Kaikki oikeudet pidetään</p>
+            </div>
+        </section>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
