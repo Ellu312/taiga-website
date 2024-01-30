@@ -702,6 +702,15 @@ color: #fff;
         color: #fff;
         width: 100%;    }
 
+    .main__container{
+        max-width: 480px;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+    }    
 
     .main__content{
         color: #fff;
