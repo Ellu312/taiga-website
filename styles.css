@@ -891,11 +891,10 @@ color: #fff;
     }
     
 
-
     .main__contact--form input{
         justify-content: center;
         align-items: center;
-        width: 80%;
+        width: 90%;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -904,7 +903,7 @@ color: #fff;
     .main__contact--form textarea{
         justify-content: center;
         align-items: center ;
-        width: 80%;
+        width: 90%;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -922,12 +921,14 @@ color: #fff;
         align-items: center;
     }
     .main__contact--form{
-        display: flex;
+        width: 100%;
+        height: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 0;
         justify-content: center;
         align-items: center;
-        height: 600px;
-        width: 100%;
-        margin: 0;
     }
 }
 
