@@ -716,14 +716,15 @@ color: #fff;
         color: #fff;
         width: 100%;}
     .main__img--card{
-        max-width: 480px;        
+        max-width: 480px;
         height: 400px;
-        margin-right: auto;
+        display: block;
         margin-left: auto;
+        margin-right: auto;
         margin: 0;
-        display: flex;
         justify-content: center;
         align-items: center;
+        
 
     }
     .main__content h1{
