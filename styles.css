@@ -757,7 +757,7 @@ color: #fff;
 
     #IG{
         height: 400px;
-        width: 250px;
+        width: 260px;
         display: block;
         justify-content: center;
         align-items: center;
@@ -917,12 +917,11 @@ color: #fff;
         margin: 0;
     }
     .main__contact--form{
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
         justify-content: center;
         align-items: center;
         height: 600px;
-        max-width: 480px;
+        max-width: 260px;
         margin: 0;
     }
 }
