@@ -917,11 +917,12 @@ color: #fff;
         margin: 0;
     }
     .main__contact--form{
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr;
         justify-content: center;
         align-items: center;
         height: 600px;
-        max-width: 260px;
+        max-width: 480px;
         margin: 0;
     }
 }
