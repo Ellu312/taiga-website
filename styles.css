@@ -105,7 +105,7 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #833ab4;
+    background: #FF66C4;
     background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
     background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
     color: #fff;
@@ -114,7 +114,7 @@
 }
 
 .navbar__links:hover{
-    color: #9518fc;
+    color: #FF66C4;
     transition: all 0.3s ease;
 
 }
@@ -271,8 +271,8 @@
 
 .hero__heading span {
     background: #ff8177;
-    background: -webkit-linear-gradient(to right, #fcb045, #833ab4);
-    background: linear-gradient(to right, #fcb045, #833ab4);
+    background: -webkit-linear-gradient(to right, #FF66C4, #fcb045);
+    background: linear-gradient(to right, #FF66C4, #fcb045);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
