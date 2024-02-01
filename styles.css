@@ -284,8 +284,8 @@
 .hero__description{
     font-size: 60px;
     background: #da22ff;
-    background: -webkit-linear-gradient(to right, #fcb045, #da22ff);
-    background: linear-gradient(to right, #fcb045, #da22ff);
+    background: -webkit-linear-gradient(to right, #FF66C4, #fcb045);
+    background: linear-gradient(to right, #FF66C4, #fcb045);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -376,8 +376,8 @@
 .main__content h2{
     font-size: 4rem;
     background: #ff8177;
-    background: -webkit-linear-gradient(to right, #fcb045, #833ab4);
-    background: linear-gradient(to right, #fcb045, #833ab4);
+    background: -webkit-linear-gradient(to right, #FF66C4, #fcb045);
+    background: linear-gradient(to right, #FF66C4, #fcb045);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
