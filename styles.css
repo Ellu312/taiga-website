@@ -105,16 +105,16 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #FF66C4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: #da22ff;
+    background: -webkit-linear-gradient(to right, #da22ff, #FFDE59);
+    background: linear-gradient(to right, #da22ff,  #FFDE59);
     color: #fff;
     transition: all 0.3s ease;
 
 }
 
 .navbar__links:hover{
-    color: #FF66C4;
+    color: #da22ff;
     transition: all 0.3s ease;
 
 }
@@ -283,9 +283,9 @@
 
 .hero__description{
     font-size: 60px;
-    background: #da22ff;
-    background: -webkit-linear-gradient(to right, #FF66C4, #fcb045);
-    background: linear-gradient(to right, #FF66C4, #fcb045);
+    background: #FF66C4;
+    background: -webkit-linear-gradient(to right, #fcb045, #FF66C4);
+    background: linear-gradient(to right, #fcb045, #FF66C4);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -294,7 +294,7 @@
 }
 
 .highlight{
-    border-bottom: 4px solid #da22ff;
+    border-bottom: 4px solid #FF66C4;
 }
 
 @media screen and (max-width:768px){
@@ -358,9 +358,9 @@
 
 .main__content h1 {
     font-size: 2rem;
-    background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: #FF66C4;
+    background: -webkit-linear-gradient(to right, #fcb045, #FF66C4);
+    background: linear-gradient(to right, #fcb045, #FF66C4);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -376,8 +376,8 @@
 .main__content h2{
     font-size: 4rem;
     background: #ff8177;
-    background: -webkit-linear-gradient(to right, #FF66C4, #fcb045);
-    background: linear-gradient(to right, #FF66C4, #fcb045);
+    background: -webkit-linear-gradient(to right, #fcb045, #833ab4);
+    background: linear-gradient(to right, #fcb045, #833ab4);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -391,14 +391,14 @@
     font-size: 2rem;
     font-weight: 700;
     margin-left: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .main__btn{
     font-size: 1.8rem;
     background: #FF66C4;
     background: -webkit-linear-gradient(to right, #FF66C4, #FFDE59);
-    background: linear-gradient(to right, #FF66C4, #FFDE59);
+    background: linear-gradient(to right, #FF66C4,  #FFDE59);
     padding: 20px 60px;
     border: none;
     border-radius: 4px;
@@ -450,14 +450,15 @@
 .main__img--card{ 
     margin: 10px;
     height: 500px;
-    width: 500px;
+    width: 700px;
     border-radius: 2px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: left;
     color: #fff;
     background-color: #131313;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 #card-2{
@@ -490,9 +491,9 @@
     text-align: left;
     align-items: left;
     font-size: 2rem;
-    background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: #FF66C4;
+    background: -webkit-linear-gradient(to right, #fcb045, #FF66C4);
+    background: linear-gradient(to right, #fcb045, #FF66C4);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -532,9 +533,9 @@
 
 .main__contact--form h1{
     font-size: 2rem;
-    background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: #FF66C4;
+    background: -webkit-linear-gradient(to right, #FF66C4, #fcb045);
+    background: linear-gradient(to right, #FF66C4, #fcb045);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -565,6 +566,7 @@
     border-radius: 10px;
     border-color: #131313;
     margin-bottom: 20px;
+    
 
 }
 
@@ -576,25 +578,26 @@
     border-radius: 10px;
     border-color: #131313;
     margin-bottom: 25px;
+    
 }
 .main__contact--form input:focus-within {
     outline: none;
-    border-color: #833ab4;
+    border-color: #FF66C4;
     border-width: 3px;
 
 }
 .main__contact--form textarea:focus-within {
     outline: none;
-    border-color: #833ab4;
+    border-color: #FF66C4;
     border-width: 3px;
 
 }
 
 .Submit__btn{
     font-size: 22px;
-    background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: #FF66C4;
+    background: -webkit-linear-gradient(to right, #FF66C4, #FFDE59);
+    background: linear-gradient(to right, #FF66C4,  #FFDE59);
     padding: 10px 18px;
     border: none;
     border-radius: 4px;
@@ -607,6 +610,7 @@
     display: flex;
     margin-left: 35%;
 
+
 }
 
 .Submit__btn::after{
@@ -616,18 +620,18 @@
     left: 0;
     width: 0;
     height: 100%;
-    background: #833ab4;
     transition: all 0.35s;
     border-radius: 4px;
+    
 }
 .Submit__btn:hover{
 color: #fff;
+
 }
 
 .Submit__btn:hover::after {
     width: 100%;
-    opacity: 20%;
-
+    opacity: 50%;
 }
 
 
@@ -702,6 +706,7 @@ color: #fff;
         color: #fff;
         width: 100%;    }
 
+
     .main__container{
         max-width: 480px;
         display: grid;
@@ -710,12 +715,13 @@ color: #fff;
         align-items: center;
         text-align: center;
     
-    }    
+    }
+
 
     .main__content{
         color: #fff;
         width: 100%;}
-    
+
     .main__img--card{
         width: 100%;
         height: 400px;
@@ -725,7 +731,6 @@ color: #fff;
         margin: 0;
         justify-content: center;
         align-items: center;
-        
 
     }
     .main__content h1{
@@ -879,7 +884,7 @@ color: #fff;
         margin-bottom: 50px;
     }
 
-        .main__contact--form h1{
+    .main__contact--form h1{
         font-size: 1.5rem;
         margin-top: 30px;
         justify-content: center;
@@ -890,6 +895,7 @@ color: #fff;
         margin-right: auto;
     }
     
+
 
     .main__contact--form input{
         justify-content: center;
@@ -930,6 +936,7 @@ color: #fff;
         justify-content: center;
         align-items: center;
     }
+
 }
 
 
@@ -1079,6 +1086,7 @@ color: #fff;
     max-width: 1000px;
     display: flex;
     justify-content: center;
+    align-items: center;
 
 }
 
