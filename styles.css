@@ -684,9 +684,11 @@ color: #fff;
     }
 
     .main__img--card2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: 500px;
-        width: 800px;
-        position: relative;
+        width: 100%;
     }
 
     #IG {
