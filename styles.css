@@ -450,7 +450,7 @@
 .main__img--card{ 
     margin: 10px;
     height: 500px;
-    width: 700px;
+    width: 550px;
     border-radius: 2px;
     display: flex;
     flex-direction: column;
@@ -469,7 +469,7 @@
 
 .main__img--card2{
     height: 500px;
-    width: 700px;
+    width: 550px;
     border-radius: 2px;
     display: flex;
     flex-direction: column;
@@ -592,8 +592,7 @@
     border-width: 3px;
 
 }
-
-.Submit__btn{
+.Submit__btn {
     font-size: 22px;
     background: #FF66C4;
     background: -webkit-linear-gradient(to right, #FF66C4, #FFDE59);
@@ -608,12 +607,10 @@
     outline: none;
     text-align: center;
     display: flex;
-    margin-left: 35%;
-
-
+    margin: 0 auto;
 }
 
-.Submit__btn::after{
+.Submit__btn::after {
     position: absolute;
     content: "";
     top: 0;
@@ -624,9 +621,9 @@
     border-radius: 4px;
     
 }
-.Submit__btn:hover{
-color: #fff;
 
+.Submit__btn:hover {
+    color: #fff;
 }
 
 .Submit__btn:hover::after {
@@ -635,8 +632,7 @@ color: #fff;
 }
 
 
-
-@media screen and (max-width:1600px){
+@media screen and (max-width:1400px){
     .main__container {
         display: grid;
         grid-template-columns: 1fr;
@@ -776,7 +772,7 @@ color: #fff;
     }
 }
 
-@media screen and (max-width:1600px){
+@media screen and (max-width:1400px){
     
 .main__contact{
     color: #fff;
@@ -843,7 +839,7 @@ color: #fff;
 .main__contact--form input{
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -852,7 +848,7 @@ color: #fff;
 .main__contact--form textarea{
     justify-content: center;
     align-items: center ;
-    width: 100%;
+    width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -862,7 +858,7 @@ color: #fff;
 .Submit__btn{
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 40%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -988,8 +984,8 @@ color: #fff;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
     color: #131313;
     background: #f7ff00;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #db36a4, #f7ff00);  /* Chrome 10-25, Safari 5.1-6 */
