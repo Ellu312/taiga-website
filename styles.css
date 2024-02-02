@@ -636,7 +636,7 @@ color: #fff;
 
 
 
-@media screen and (max-width:1100px){
+@media screen and (max-width:1600px){
     .main__container {
         display: grid;
         grid-template-columns: 1fr;
@@ -647,57 +647,56 @@ color: #fff;
         height: 90%;
     }
 
-    .main__img--container{
-        display: block;
+    .main__img--container {
+        display: flex;
         justify-content: center;
-        margin: 0;
+        align-items: center;
+        margin: 0 auto;
         width: 250px;
-
+        position: relative;
     }
 
-    .center{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
+    .main__img--card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        width: 100%;
     }
 
     .main__content {
         text-align: center;
         margin-bottom: 4rem;
-
     }
 
-    .main__content h1{
-        justify-content: center;
-        text-align: center;
-        align-items: center;
+    .main__content h1 {
         font-size: 2.5rem;
         margin-top: 2rem;
     }
 
-    .main__content h2{
-        justify-content: center;
-        text-align: center;
-        align-items: center;
+    .main__content h2 {
         font-size: 3rem;
-        }
+    }
 
-    .main__content p{
+    .main__content p {
         margin-top: 1rem;
         font-size: 1.5rem;
-
     }
 
-    .main__img--card2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .main__img--card2 {
         height: 500px;
-        width: 200px;
-
+        width: 800px;
+        position: relative;
     }
 
+    #IG {
+        height: 600px;
+        width: 400px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 480px){
@@ -775,7 +774,7 @@ color: #fff;
     }
 }
 
-@media screen and (max-width:1100px){
+@media screen and (max-width:1600px){
     
 .main__contact{
     color: #fff;
@@ -783,12 +782,13 @@ color: #fff;
 }
 
 .main__img--card--contact{
-    display: block;
+
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: 700px;
+    margin: 0 auto;
     width: 480px;
-    margin: 50%;
+    position: relative;
 }
 
 
@@ -807,14 +807,15 @@ color: #fff;
     text-align: center;
     align-items: center;
     font-size: 3rem;
+    margin-bottom: 1rem;
 }
 
 .main__contact p {
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    font-size: 2rem;
 }
 .main__contact--form{
     display: block;
@@ -840,7 +841,7 @@ color: #fff;
 .main__contact--form input{
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -849,7 +850,7 @@ color: #fff;
 .main__contact--form textarea{
     justify-content: center;
     align-items: center ;
-    width: 70%;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -859,7 +860,7 @@ color: #fff;
 .Submit__btn{
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -970,7 +971,7 @@ color: #fff;
 
 .services__wrapped {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 
 }
